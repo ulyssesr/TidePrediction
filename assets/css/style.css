@@ -1,0 +1,81 @@
+html,body,.btn {
+	font-family:'Open Sans',sans-serif;
+	font-size:14px;
+	height: 100%;
+	color:#555;
+}
+
+h1,h2,h3,h4,h5 .brand {
+	color:#444;
+	font-family:'Open Sans',sans-serif;
+}
+
+h1 {font-size:32px;}
+h2 {font-size:28px;}
+h3 {font-size:24px;}
+h4 {font-size:18px;}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px;
+}
+
+#wrap .content {
+	padding-top:70px;
+}
+
+#push, footer {
+	text-align:center;
+    height: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	html {
+	padding-top:0;
+ 	}
+ 	#wrap .content {
+ 	padding-top:0;
+ 	}
+}
+
+@media (max-width: 767px) {
+	html {
+	padding-top:0;
+ 	}
+ 	#wrap .content {
+ 	padding-top:0;
+ 	}
+	h1 {font-size:20px;}
+	h2 {font-size:18px;}
+	h3 {font-size:17px;}
+	h4 {font-size:16px;}
+}
+
+a,a:active,a:visited {
+	color:#444;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#777;
+	text-decoration:underline;
+}
+
+.embed {
+	text-align:left;
+	width:48%;
+	float:left;
+	padding:0;
+	margin:0;
+}
+
+div.ui-datepicker {
+	font-size:11px;
+}
+
+.view a,a:active,a:visited {
+	color:#444;
+	text-decoration:underline;
+}
