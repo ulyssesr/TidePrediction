@@ -1,3 +1,3 @@
 TidePrediction
 ==============
-Tide Prediction displays today's tide prediction for several California beaches. It uses xtide program for tide prediction. The PHP and Bash scripts are written by me. I use cron to run 'generate.sh' script every 3 hours to generate the latest tide prediction.
+Tide Prediction is a couple of scripts that displays today's tide prediction for several California beaches. It uses the xtide program to generate tide prediction data. The PHP and Bash scripts were written by me. I use cron to run the generate.sh every 3 hours to update the latest tide prediction.
